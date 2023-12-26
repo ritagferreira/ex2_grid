@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ex.2 Grid</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-gradient">
+        <center><h1>Rita Ferreira</h1></center>
+        <nav>
+            <ul>
+                <li><a href="Portfólio">Portfólio</a></li>
+                <li><a href="Sobre">Sobre</a></li>
+                <li><a href="Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <section class="projects">
+            <h2>Os Meus Projetos</h2>
+            <div class="web-design">
+                <h3>Web Design</h3>
+                <p>Projetos incríveis de web design para diversos clientes.</p>
+            </div>
+            <div class="des-app">
+                <h3>Desenvolvimento de Aplicativos</h3>
+                <p>Aplicativos inovadores que melhoram a experiência do usuário.</p>
+            </div>
+            <div class="graphic-design">
+                <h3>Graphic Design</h3>
+                <p>Criações visuais impressionantes para diferentes finalidades.</p>
+            </div>
+        </section>
+        
+        <aside class="sidebar">
+            <div class="filter">
+                <h2> Filtrar Projetos</h2><hr><br>
+                <label for="category">Escolha a Categoria:</label>
+                <select id="category" name="category">
+                    <option value="all">Todos</option>
+                    <option value="web-design"> Web Design</option>
+                    <option value="app-development"> Desenvolvimento de Aplicativos</option>
+                    <option value="graphic-design"> Design Grágico</option>
+                </select>
+            </div>
+
+            <div class="contact-form">
+                <h2>Formulário de Contacto</h2><hr><br>
+                <form action="#" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Mensagem:</label>
+                    <input id="message" name="message" required></textarea>
+
+                    <br><button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+
+            <div class="social-media">
+                <h2>Redes Sociais</h2><hr><br>
+                <div class="icons">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                </div>
+            </div>
+            </aside>
+    </main>
+</body>
+</html>
